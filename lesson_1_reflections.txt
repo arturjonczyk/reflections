@@ -1,0 +1,21 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Największą pomocą są znaki "+" i "-" gdzie występiły zmiany. Plus oznacza, że coś dodano a minus, że coś usunięto. Koncentrując się na tych właśni miejscach spostrzegłem, że w pewnym miejscu wystąpił błąd, przeliterowanie.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Przede wszystkim mogę testowac różne rozwiązania, porównywać je, coś dodawać, coś zmieniać, cofać się do początku lub np. cofnąć się o tylko kilka wersji i wybrać alternatywną ścieżkę ukończenia programu.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+pros: mogę zapisywać zmiany kiedy ja chcę, np. kiedy ukończyłem pewną część kodu dotyczącą jednego tematu, ani za małą ani za dużą.
+cons: czasami mogę zapomnieć zapisać i zmiany są zbyt duże, trudno mi opisać czego konkretnie dotyczą, ponieważ zmiany dotyczyły kodu w różnych miejscach.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git bierze pod uwagę projekt jako całość a nie jego poszczególne elementy.
+Google Docs koncentruje się na pojedyńczych plikach.
+
+How can you use the commands git log and git diff to view the history of files?
+Every time that I'd like to check my commit history i just need to write command git log, and I have access to all my commit history, I know when, by who, and what was added if of course the correct message is inserted.
+Then I can compare between my commitments. To do that I need to write:
+git diff first_id second_id. This will show me what was inserted, what was deleted.
+
+How might using version control make you more confident to make changes that could break something?
+Well, now every time that something appears buggy that suppose should be OK, I can check the exact moment and place that the bug was introduce. Check, I mean I can compare previous versions, and see when exactly something stop working properly.
