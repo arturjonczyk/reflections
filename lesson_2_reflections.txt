@@ -3,3 +3,6 @@ Well basiclly I just saing to git, hey git look up for this folder, which is imp
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is like a drower, that we can put things related each other and after that made one logic commit to out repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+We can simply compare versions. Compare with the version in the working directory. Compare with the latest version in our repository.
