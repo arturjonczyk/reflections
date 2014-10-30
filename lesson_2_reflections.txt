@@ -9,3 +9,6 @@ We can simply compare versions. Compare with the version in the working director
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches are helpful specificly when you trying to acomplish something new, add new feutured, but you are not sure if this wont work. So you are making a new branch and worinking on it, end if your happy with your acomplishment you can then mearge exp branch with the master branch, adding new functionality.
+
+How do the diagrams help you visualize the branch structure?
+It's help me visulize the hole project by branches, where I am, how many branches are there. 
