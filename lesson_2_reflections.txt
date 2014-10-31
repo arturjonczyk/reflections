@@ -12,3 +12,7 @@ Branches are helpful specificly when you trying to acomplish something new, add 
 
 How do the diagrams help you visualize the branch structure?
 It's help me visulize the hole project by branches, where I am, how many branches are there. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is to make on branch in this case master branch, that has all the features of the other branch, that we were working on. We check our idea, it was good, and in some point we decided to mearch this to branches in one.
+This way that we represent this two branches in diagram giva us an idea, what the final result can be, and what will be included.
