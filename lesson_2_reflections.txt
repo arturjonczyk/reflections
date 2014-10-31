@@ -16,3 +16,7 @@ It's help me visulize the hole project by branches, where I am, how many branche
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result is to make on branch in this case master branch, that has all the features of the other branch, that we were working on. We check our idea, it was good, and in some point we decided to mearch this to branches in one.
 This way that we represent this two branches in diagram giva us an idea, what the final result can be, and what will be included.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros - it is faster, you just using merge and that it, git will do ther rest of the work.
+Cons - it can sometimes make conflicts between two branches, and at the moment there is no solution to make it work. So sometimes the programmer, his ablity to solve the problem it's handdy. Git will help you marking the place were occure the isue.
