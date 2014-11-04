@@ -4,3 +4,11 @@ for example one on my work and other is my private.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
     Well mainly because some code that someone add to the repo could break your project. So firstly you need to be sure that the code that you want to pull wont break your project.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+    Forks: I will use when I wont to clone the repo directly to my github and work on it separately with others, choose by me collaborators.
+
+    Clone: When I just want to clone the project to my local machine, and collaborate to the project, pushing changes.
+
+    Branches: I will use on my local machine to try something new, fix bugs without interfering the master branch.
+
